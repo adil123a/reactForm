@@ -54,8 +54,8 @@ class ControlledForm extends React.Component{
 
                     <TextInput
                     name='name'
-                    label='Enter Name'
-                    placeholder='tell me'
+                    label='Name'
+                    placeholder='Enter your Name'
                     value={name}
                     onChange={this.handleChange}
                     />
